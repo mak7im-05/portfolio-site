@@ -1,0 +1,46 @@
+.reviews-title {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 45px;
+	margin-bottom: 40px;
+}
+.reviews-title h2 {
+	margin-right: 30px;
+}
+.swiper {
+	width: 100%;
+}
+.swiper-slide {
+	width: 1150px;
+	height: 600px;
+	background: #823CDB;
+	border-radius: 50px;
+	min-height: 380px;
+	padding: 30px 40px;
+	display: flex;
+	flex-direction: column;	
+	justify-content: space-between;
+}
+.rev-text {
+	font-weight: 300;
+	font-size: 27px;
+	line-height: 40px;
+/* or 148% */
+
+	display: flex;
+	align-items: center;
+
+}
+.userName {
+	margin-left: 25px;
+}
+.nickname {
+	display: flex;
+	align-items: center;
+	
+}
+.data {
+	text-align: right;
+	font-weight: 400;
+	font-size: 24px;
+}

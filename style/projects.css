@@ -1,0 +1,50 @@
+.projects-container h2 {
+	text-align: center;
+	
+}
+.projects-item {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+.item-1 {
+	background: url(../image/1.png) 0 0 no-repeat;
+}
+.item-2 {
+	background: url(../image/2.png) 0 0 no-repeat;
+}
+.item-3 {
+	background: url(../image/3.png) 0 0 no-repeat;
+}
+.proj-item{
+
+	
+	width: 32%;
+	position: relative;
+	height: 330px;
+	border-radius: 25px;
+	border: 1px solid #fff;
+}
+.proj-item:hover {
+	box-shadow: 1px 1px 10px #FF0000, inset 1px 1px 10px 1px #FF0000;
+	transition: .2s;
+}
+.proj-item p {
+	position: absolute;
+	bottom: 22px;
+	left: 25px;
+
+	font-weight: 300;
+	font-size: 24px;	
+	text-transform: uppercase;
+}
+.btn-con {
+	display: flex;
+	justify-content: center;
+}
+.project-btn {
+	padding: 20px 30px;
+	margin-bottom: 100px;
+}

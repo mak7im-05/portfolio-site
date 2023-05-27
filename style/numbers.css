@@ -1,0 +1,38 @@
+.achiv {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.achiv-item {
+	width: 30%;
+	position: relative;
+	height: 382px;
+	border-radius: 45px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.num-big {
+	font-family: 'Roboto';
+	font-weight: 900;
+	font-size: 100px;
+	width: 100%;
+}
+.num-dis {
+	font-family: 'Montserrat Alternates';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+display: flex;
+align-items: center;
+text-align: center;
+}
+.num-c {
+	padding-bottom: 35px;
+}
