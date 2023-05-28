@@ -9,4 +9,8 @@ const swiper = new Swiper('.swiper', {
 	centeredSlides: true,
 	slidesPerView: 'auto',
 	spaceBetween: 125,
+	navigation: {
+		nextEl: '.swiper-button-next',
+		prevEl: '.swiper-button-prev',
+	},
 });

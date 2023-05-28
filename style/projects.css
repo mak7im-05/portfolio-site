@@ -10,15 +10,15 @@
 	margin-top: 50px;
 }
 .item-1 {
-background: linear-gradient(180deg, rgba(255, 255, 255, 0.55) -61.67%, rgba(0, 0, 0,  0.7) 100%),
+background: linear-gradient(180deg, rgba(255, 255, 255, 0) -61.67%, rgba(0, 0, 0,  0.5) 100%),
 			url(../image/1.png) 0 0 no-repeat;
 }
 .item-2 {
-background: linear-gradient(180deg, rgba(255, 255, 255, 0.75) -61.67%, rgba(0, 0, 0, 0.7) 100%),
+background: linear-gradient(180deg, rgba(255, 255, 255, 0) -61.67%, rgba(0, 0, 0, 0.5) 100%),
 url(../image/2.png) 0 0 no-repeat;
 }
 .item-3 {
-background: linear-gradient(180deg, rgba(255, 255, 255, 0.75) -61.67%, rgba(0, 0, 0, 0.7) 100%),
+background: linear-gradient(180deg, rgba(255, 255, 255, 0) -61.67%, rgba(0, 0, 0, 0.5) 100%),
 url(../image/3.png) 0 0 no-repeat;
 }
 .proj-item{

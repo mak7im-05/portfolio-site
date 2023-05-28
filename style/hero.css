@@ -10,6 +10,7 @@
 .hero-img {
 	width: 425px;
 	height: 425px;
+	max-width: 100%;
 }
 .hero-text p {
 	font-size: 2.3rem;

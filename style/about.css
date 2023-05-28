@@ -9,7 +9,7 @@
 	
 }
 .about-pic img {
-	width: 100%;
+	max-width: none;
 	width: 425px;
 	
 	margin-bottom: 25px;
@@ -33,8 +33,3 @@
 
 	color: #FFFFFF;
 }
-.about-container {
-	padding-bottom: 60px;
-}
-.numbers-container {padding-bottom: 0px;}
-
