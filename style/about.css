@@ -1,7 +1,7 @@
 .about-container {
 	display: flex;
 	justify-content: space-between;
-	padding: 123px 0px 143px 0px;
+	padding: 40px 0px 120px 0px;
 }
 .about-pic {
 	text-align: center;
@@ -9,26 +9,32 @@
 	
 }
 .about-pic img {
-	min-width: 400px;
 	width: 100%;
-	margin-bottom: 50px;
+	width: 425px;
+	
+	margin-bottom: 25px;
 }
 .about-text {
 	text-align: center;
 }
 .about-text h3 {
-	margin-top: 20px;
+	margin-top: 60px;
+	margin-bottom: 55px;
 }
 
 .about-text p{
 	margin-top: 20px;
 
 	font-family: 'Montserrat Alternates';
-	font-size: 28px;
+	font-size: 1.6rem;
 	line-height: 153.9%;
 
 	text-align: center;
 
 	color: #FFFFFF;
-
 }
+.about-container {
+	padding-bottom: 60px;
+}
+.numbers-container {padding-bottom: 0px;}
+

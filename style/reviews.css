@@ -1,21 +1,27 @@
 .reviews-title {
 	display: flex;
 	justify-content: center;
-	margin-bottom: 45px;
-	margin-bottom: 40px;
+	margin-bottom: 65px;
+
+}
+.reviews-title img {
+	width: 50px;
+}
+.nickname img {
+	width: 50px;
 }
 .reviews-title h2 {
 	margin-right: 30px;
 }
 .swiper {
 	width: 100%;
+	margin-bottom: 50px;
 }
 .swiper-slide {
-	width: 1150px;
-	height: 600px;
+	width: 50%;
+	height: auto;
 	background: #823CDB;
 	border-radius: 50px;
-	min-height: 380px;
 	padding: 30px 40px;
 	display: flex;
 	flex-direction: column;	
@@ -23,8 +29,8 @@
 }
 .rev-text {
 	font-weight: 300;
-	font-size: 27px;
-	line-height: 40px;
+	font-size: 1.1rem;
+	line-height: 30px;
 /* or 148% */
 
 	display: flex;
@@ -35,12 +41,14 @@
 	margin-left: 25px;
 }
 .nickname {
+	margin-bottom: 30px;
 	display: flex;
 	align-items: center;
 	
 }
 .data {
+	margin-top: 30px;
 	text-align: right;
 	font-weight: 400;
-	font-size: 24px;
+	font-size: 1.6rem;
 }

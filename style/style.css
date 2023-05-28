@@ -1,9 +1,11 @@
 html {
 	scroll-behavior: smooth;	
+	font-size: 15px;
+	
 }
 
 body {
-	background: url(../image/ellipse-1.svg) 0 0 no-repeat ,
+	/* background: url(../image/ellipse-1.svg) 0 0 no-repeat ,
 	 			url(../image/triangle-1.svg) 93% 9% no-repeat,
 				url(../image/rect-1.svg) 55% 16% no-repeat,
 				url(../image/Ellipse-2.png) 100% 20% no-repeat,
@@ -11,22 +13,22 @@ body {
 				url(../image/triangle-3.svg) 6% 31% no-repeat,
 				url(../image/triangle-4.svg) 10% 35% no-repeat,
 				url(../image/line.svg) 24% 96% no-repeat;
-				
+				 */
 	background-color: #0E0E0E;	
 		 
 	
 }
 .container {
 	width: 100%;
-	max-width: 1210px;
-	padding: 0 30px;
+	max-width: 1270px;
 	margin: 0 auto;
+	padding: 0 15px;
 }
 
 h1 {
 	font-family: 'Montserrat';
 	font-weight: 700;
-	font-size: 80px;
+	font-size: 5.3rem;
 	text-transform: uppercase;
 
 	background: linear-gradient(87.85deg, #4D00FF -20.98%, #BB9DFF 80.47%);
@@ -40,7 +42,7 @@ h1 {
 h2 {
 	font-family: 'Montserrat';
 	font-weight: 700;
-	font-size: 65px;
+	font-size: 3.2rem;
 	text-align: center;
 
 	color: #FFFFFF;
@@ -49,7 +51,7 @@ h2 {
 h3 {
 	font-family: 'Montserrat';
 	font-weight: 500;
-	font-size: 48px;
+	font-size: 3.2rem;
 	/* identical to box height */
 
 
@@ -57,7 +59,7 @@ h3 {
 }
 h6 {
 	font-family: 'Montserrat';
-	font-size: 24px;
+	font-size: 1.6rem;
 	color:#fff
 }
 p {
@@ -74,7 +76,7 @@ p {
 
 	font-family: 'Montserrat';
 	font-weight: 500;
-	font-size: 24px;
+	font-size: 1.6rem;
 	text-transform: uppercase;
 
 	color: #FFFFFF;

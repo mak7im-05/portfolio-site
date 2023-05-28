@@ -1,3 +1,7 @@
+.numbers-container {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
 .achiv {
 	display: flex;
 	justify-content: space-between;
@@ -20,14 +24,14 @@
 .num-big {
 	font-family: 'Roboto';
 	font-weight: 900;
-	font-size: 100px;
+	font-size: 6.6rem;
 	width: 100%;
 }
 .num-dis {
 	font-family: 'Montserrat Alternates';
 font-style: normal;
 font-weight: 700;
-font-size: 32px;
+font-size: 2.1rem;
 line-height: 39px;
 display: flex;
 align-items: center;
