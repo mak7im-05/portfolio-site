@@ -35,3 +35,12 @@
 	transition: .2s;
 	border-bottom: 1px solid #fff;
 } 
+
+.menu__list {
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;
+}
+.menu__icon {
+	display: none;
+}

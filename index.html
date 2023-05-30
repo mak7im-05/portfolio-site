@@ -21,12 +21,20 @@
 						<img src="./image/LOGO.svg" alt="LOGO">
 					</a>
 				</div>
-				<div class="header-nav">
-					<nav class="header-menu">
-						<a class="header-nav-link" href="#about">Обо мне</a>
-						<a class="header-nav-link" href="#project">Проекты</a>
-						<a class="header-nav-link" href="#rev">Отзывы</a>
-						<a class="header-nav-link" href="#">En</a>
+
+				<div class="header__menu menu">
+					<div class="menu__icon">
+						<span></span>
+					</div>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li><a data-goto=".section-1" class="header-nav-link menu__link" href="#">Обо мне</a>
+							</li>
+							<li><a data-goto=".section-2" class="header-nav-link menu__link" href="#">Проекты</a>
+							</li>
+							<li><a data-goto=".section-3" class="header-nav-link menu__link" href="#">Отзывы</a></li>
+							<li><a class="header-nav-link menu__link" href="#">En</a></li>
+						</ul>
 					</nav>
 				</div>
 			</div>
@@ -47,7 +55,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="about" id="about">
+		<section class="about section-1" id="about">
 			<div class="container">
 				<div class="about-container">
 					<div class="about-pic">
@@ -69,7 +77,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="projects" id="project">
+		<section class="projects section-2" id="project">
 			<div class="container">
 				<div class="projects-container">
 					<h2>
@@ -128,7 +136,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="reviews" id="rev">
+		<section class="reviews section-3" id="rev">
 			<div class="reviews-container">
 				<div class="reviews-title">
 					<h2>Отзывы клиентов</h2>
