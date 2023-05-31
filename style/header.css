@@ -44,3 +44,12 @@
 .menu__icon {
 	display: none;
 }
+.change__lang {
+	color: white;
+	border: none;
+	outline: none;
+	font-size: 24px;
+}
+.change__lang option {
+	color: black;
+}
