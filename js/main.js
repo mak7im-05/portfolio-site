@@ -1,3 +1,5 @@
+// slider
+
 const swiper = new Swiper('.swiper', {
 	// Optional parameters
 	loop: true,
@@ -15,6 +17,9 @@ const swiper = new Swiper('.swiper', {
 	},
 });
 
+
+// burger menu
+
 const iconMenu = document.querySelector('.menu__icon');
 const menuBody = document.querySelector('.menu__body');
 
@@ -26,9 +31,6 @@ if (iconMenu) {
 		menuBody.classList.toggle('_active');
 	})
 }
-
-
-
 
 const menuLinks = document.querySelectorAll('.menu__link[data-goto]');
 if (menuLinks.length > 0) {
@@ -58,6 +60,8 @@ if (menuLinks.length > 0) {
 }
 
 
+// ru en
+
 const select = document.querySelector('.change__lang');
 const AllLang = ['ru', 'en'];
 
@@ -86,3 +90,40 @@ function changeLanguage() {
 }
 
 changeLanguage();
+
+// animation
+
+const animItems = document.querySelectorAll('._anim-items');
+if (animItems.length > 0) {
+	window.addEventListener('scroll', animOnScroll);
+	function animOnScroll() {
+		for (let index = 0; index < animItems.length; index++) {
+			const animItem = animItems[index];
+			const animItemHeight = animItem.offsetHeight;
+			const animItemOffSet = offset(animItem).top;
+			const animStart = 4;
+
+			let animItemPoint = window.innerHeight - animItemHeight / animStart;
+
+			if (animItemHeight > window.innerHeight) {
+				animItemPoint = window.innerHeight - animItemHeight / animStart;
+			}
+
+			if ((pageYOffset > animItemOffSet - animItemPoint) && pageYOffset < (animItemOffSet + animItemHeight)) {
+				animItem.classList.add('_anim');
+			} else {
+				if (!animItem.classList.contains('_anim-no-hide'))
+					animItem.classList.remove('_anim');
+			}
+		}
+	}
+	function offset(el) {
+		const rect = el.getBoundingClientRect(),
+			scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
+			scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+		return { top: rect.top + scrollTop, left: rect.left + scrollLeft }
+	}
+	setTimeout(() => {
+		animOnScroll();
+	}, 300);
+}

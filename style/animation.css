@@ -1,0 +1,94 @@
+.hero-title {
+	transform: translate(0px, 120%);
+	opacity: 0;
+	transition: all 0.8s ease 0s;
+}
+.hero-title._anim {
+	transform: translate(0px, 0px);
+	opacity: 1;
+}
+
+.hero-txt {
+	transform: translate(0px, 120%);
+	opacity: 0;
+	transition: all 0.8s ease 0.3s;
+}
+.hero-txt._anim {
+	transform: translate(0px, 0px);
+	opacity: 1;
+}
+
+.hero-img {
+	transform: translate(140%, 0%);
+	opacity: 0;
+	transition: all 1.5s ease 0.2s;
+}
+
+.hero-img._anim {
+	transform: translate(0px, 0px);
+	opacity: 1;
+}
+.about-pic {
+	transform: translate(-100%, 0%);
+	opacity: 0;
+	transition: all 1.5s ease 0.2s;
+}
+
+.about-pic._anim {
+	transform: translate(0px, 0px);
+	opacity: 1;
+}
+.about-text {
+	transform: translate(140%, 0%);
+	opacity: 0;
+	transition: all 1.5s ease 0.2s;
+}
+
+.about-text._anim {
+	transform: translate(0px, 0px);
+	opacity: 1;
+}
+.item-1 {
+	transform: translate(-100%, 0%);
+	opacity: 0;
+	transition: all 1.5s ease 0.2s;
+}
+
+.item-1._anim {
+	transform: translate(0px, 0px);
+	opacity: 1;
+}
+.item-3 {
+	transform: translate(140%, 0%);
+	opacity: 0;
+	transition: all 1.5s ease 0.2s;
+}
+
+.item-3._anim {
+	transform: translate(0px, 0px);
+	opacity: 1;
+}
+.item-2 {
+	opacity: 0;
+	transition: all 2s ease 0.2s;
+}
+.item-2._anim {
+	opacity: 1;
+}
+.achiv-item {
+	transform: translate(-140%, 0%);
+	opacity: 0;
+}
+.achiv-item._anim {
+	transform: translate(0px, 0px);
+	opacity: 1;
+}
+.achiv-item:nth-child(1) {
+	transition: all 1.5s ease 0.1s;
+}
+.achiv-item:nth-child(2) {
+	transition: all 1.5s ease 0.5s;
+}
+.achiv-item:nth-child(3) {
+	transition: all 1.5s ease 0.9s;
+}
