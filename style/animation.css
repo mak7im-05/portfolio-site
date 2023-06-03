@@ -7,7 +7,9 @@
 	transform: translate(0px, 0px);
 	opacity: 1;
 }
-
+section {
+	overflow: hidden;
+}
 .hero-txt {
 	transform: translate(0px, 120%);
 	opacity: 0;
@@ -18,13 +20,15 @@
 	opacity: 1;
 }
 
-.hero-img {
+.hero-img img{
 	transform: translate(140%, 0%);
 	opacity: 0;
 	transition: all 1.5s ease 0.2s;
+	
 }
 
-.hero-img._anim {
+
+.hero-img._anim img{
 	transform: translate(0px, 0px);
 	opacity: 1;
 }
@@ -84,11 +88,11 @@
 	opacity: 1;
 }
 .achiv-item:nth-child(1) {
-	transition: all 1.5s ease 0.1s;
+	transition: all 1.5s ease 0.3s;
 }
 .achiv-item:nth-child(2) {
-	transition: all 1.5s ease 0.5s;
+	transition: all 1.5s ease 0.3s;
 }
 .achiv-item:nth-child(3) {
-	transition: all 1.5s ease 0.9s;
+	transition: all 1.5s ease 0.3s;
 }

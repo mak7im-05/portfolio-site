@@ -172,7 +172,7 @@
 		flex-direction: column-reverse;
 		align-items: center;
 		text-align: center;
-		padding-top: 60px;
+		padding-top: 0px;
 	}
 	.hero-text p {
 		margin-bottom: 40px;
@@ -352,7 +352,9 @@
 	.menu__list {
 		flex-direction: column;
 	}
-
+	html {
+		overflow-x: hidden;
+	}
 
 
 

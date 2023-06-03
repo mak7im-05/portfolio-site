@@ -75,7 +75,6 @@ function changeURLLanguage() {
 function changeLanguage() {
 	let hash = window.location.hash;
 	hash = hash.substr(1);
-	console.log(hash);
 	if (!AllLang.includes(hash)) {
 		location.href = window.location.pathname + '#en';
 		location.reload();
