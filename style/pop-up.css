@@ -1,0 +1,140 @@
+.pop_up {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	background-color: rgba(0, 0, 0, 0.8);
+	z-index: 1000;
+	transform: translateY(-44.5%) scale(0);
+	transition: .4s ease-in-out;
+}
+.pop_up_container {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	padding-top: 40px;
+}
+.pop_up_body {
+	margin:auto;
+	width: 80%;
+	background-color: #faeb97;
+	border-radius: 5px;
+	text-align: center;
+	height: 100%;
+	overflow-y: scroll;
+	position: relative;
+}
+.pop_up_body::-webkit-scrollbar {
+	width: 5px;
+	background-color: rgb(209, 113, 4);
+
+  }
+.pop_up_body::-webkit-scrollbar-thumb {
+	box-shadow: inset 0 0 6px rgb(248, 132, 97);
+}
+.close_pop_up{
+	font-size: 30px;
+	position: fixed;
+	top: 55px;
+	right: 14%;
+	cursor: pointer;
+	z-index: 1000;
+	color: #f55220;
+}
+.pop_up.opPop {
+	transform: translateY(0%) scale(100%);
+}
+.project-btn a {
+	text-decoration: none;
+	color: white;
+}
+.pop-container {
+	width: 100%;
+	max-width: 1110px;
+	margin: 20px auto;
+	padding: 0 45px;
+	height: 100%;
+}
+.works {
+	text-align: left;
+}
+.work-item {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 80px;
+}
+.work-item:nth-of-type(2n){
+	flex-direction: row-reverse;
+}
+.work-item h3 {
+	color: #131313;
+	margin-bottom: 35px;
+	text-align: center;
+}
+.work-item img {
+	border-radius: 20px 100px 20px 100px;
+	
+	height: 500px;
+	
+}
+.work-item p{
+	
+	font-size: 2.1rem;
+	color: #131313;
+	margin-bottom: 30px;
+}
+
+.work-right {
+	
+	padding-top: 100px;
+	display: flex;
+	flex-direction: column;
+}
+.work-right a {
+	color: #000;
+	text-decoration: none;
+	font-size: 32px;
+}
+.work-right a:hover {
+	color: #000;
+	
+	text-decoration: underline;
+	font-size: 32px;
+}
+.Klar {
+	background-image: url(../image/KLAR-img.png);
+	background-size: cover;
+	width: 100%;
+	border-radius: 20px 100px 20px 100px;
+	height: 500px;
+	margin-right: 5%;
+	
+}
+.Mitravel{
+	background-image: url(../image/Mitravel-img.png);
+	background-size: cover;
+	width: 100%;
+	border-radius: 20px 100px 20px 100px;
+	height: 500px;
+	margin-left: 5%;
+}
+.Go-trip {
+	background-image: url(../image/Travel-project-img.png);
+	background-size: cover;
+	width: 100%;
+	border-radius: 20px 100px 20px 100px;
+	height: 500px;
+	margin-left: 5%;
+}
+.Boosted {
+	background-image: url(../image/Boosted-Usa-img.png);
+	width: 100%;
+	background-size: cover;
+	border-radius: 20px 100px 20px 100px;
+	height: 500px;
+	margin-right: 5%;
+}
+.Klar, .Mitravel, .Go-trip, .Boosted {
+	background-position: center center;
+}

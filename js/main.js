@@ -125,4 +125,18 @@ if (animItems.length > 0) {
 	setTimeout(() => {
 		animOnScroll();
 	}, 300);
-}
+};
+
+// Pop Up
+
+const openPopUp = document.querySelector('.open_pop_up');
+const closePopUp = document.querySelector('.close_pop_up');
+const popUp = document.querySelector('.pop_up');
+
+openPopUp.addEventListener('click', function (e) {
+	popUp.classList.add('opPop');
+})
+
+closePopUp.addEventListener('click', () => {
+	popUp.classList.remove('opPop');
+})

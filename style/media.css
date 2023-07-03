@@ -233,6 +233,27 @@
 		margin-bottom: 35px;
 	}
 }
+@media screen and (max-width: 1000px) {
+	.work-item {
+		flex-direction: column;
+		text-align: center;
+		justify-items: center;
+		align-items: center;
+	}
+	.work-item:nth-of-type(2n){
+		flex-direction: column;
+	}
+	.Klar, .Mitravel, .Go-trip, .Boosted{
+		border-radius: 20px;
+		height: 37rem;
+		margin: 0px;	
+	}
+	.work-right{
+		padding-top: 20px;
+	}
+
+}
+
 @media screen and (max-width: 830px) {
 	html {
 		font-size: 9px;

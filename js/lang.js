@@ -67,6 +67,22 @@ const langArr = {
 		'ru': 'Открыть',
 		'en': 'Open'
 	},
+	'open-3': {
+		'ru': 'Открыть',
+		'en': 'Open'
+	},
+	'open-4': {
+		'ru': 'Открыть',
+		'en': 'Open'
+	},
+	'open-5': {
+		'ru': 'Открыть',
+		'en': 'Open'
+	},
+	'open-6': {
+		'ru': 'Открыть',
+		'en': 'Open'
+	},
 	'all-works': {
 		'ru': ' Все работы ',
 		'en': 'All works'
@@ -90,5 +106,22 @@ const langArr = {
 	'rev': {
 		'ru': 'Отзывы клиентов',
 		'en': 'reviews clients'
-	}
+	},
+	'Klar': {
+		'ru': 'Шаблон, для сайтов тематики - Искусство. <br> Стек Разработки:HTML/CSS/JS, PHP, BEM',
+		'en': 'Template, for sites subjects - Art. <br> Development Stack:HTML/CSS/JS, PHP, BEM'
+	},
+	'Mitravel': {
+		'ru': 'Сайт разработанный для продажи книг.<br> Стек Разработки: HTML/CSS/JS, PHP, BEM',
+		'en': 'Website designed to sell books.<br> Development Stack: HTML/CSS/JS, PHP, BEM'
+	},
+	'Boosted': {
+		'ru': 'Сайт про скейты. Стек Разработки: HTML/CSS/JS, PHP, BEM',
+		'en': 'Site about skateboards. Development Stack: HTML/CSS/JS, PHP, BEM'
+	},
+	'Go-trip': {
+		'ru': 'Стек Разработки: HTML/CSS/JS, PHP, BEM',
+		'en': 'Development Stack: HTML/CSS/JS, PHP, BEM'
+	},
+
 }
